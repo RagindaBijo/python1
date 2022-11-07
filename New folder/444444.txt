@@ -1,0 +1,7 @@
+A = input('გთხოვთ, მიუთითეთ რიცხვი: ')
+p = input('გთხოვთ, პროცენტი: ')
+
+if A.isdigit() is True and P.isdigit() is True:
+    print(f'შედეგი: {(int(A)/100)*int(P)}')
+else:
+    print('გთხოვთ, მიუთითოთ რიცხვები!')

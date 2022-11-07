@@ -1,0 +1,7 @@
+import math
+z = float(input("შეიყვანეთცვლადის მნიშვნელობა"))
+cos = math.cos(2*z**2)
+In = math.log(math.fabs(9*z**3))
+x = 10**_7*In+cos
+y = math.fabs(z+1)**2+2*10**6
+print(x/y)

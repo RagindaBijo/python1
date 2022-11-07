@@ -1,0 +1,15 @@
+grade=float(input("enter number: "))
+if grade<=51:
+    print("you've failed the exam...")
+elif 51<=grade<=60:
+    print("You've passed the exam.The result - E")
+elif 61<=grade<=70:
+    print("You've passed the exam.The result - D")
+elif 71<=grade<=80:
+    print("You've passed the exam.The result - C")
+elif 81<=grade<=90:
+    print("You've passed the exam.The result - B")
+elif 91<=grade<=99:
+    print("You've passed the exam.The result - A")
+elif grade==100:
+     print("You've passed the exam.You're an excellent student!The result - A")

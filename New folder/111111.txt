@@ -1,0 +1,9 @@
+from random import*
+y = 0
+x = 0
+while x<999:
+    random =randit(100,150)
+    if random !=111 and random
+        x += random
+        y += 1
+        print(x/y)
