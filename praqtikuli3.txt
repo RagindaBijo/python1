@@ -1,0 +1,18 @@
+import random
+import math
+count = 0
+ნამრავლი = 1
+სია = []
+while ნამრავლი <= 1000:
+    x = random.randint(11, 78)
+    if x % 4 != 0:
+        სია.append(x)
+        ნამრავლი *=x
+        count =+ 1
+for number in სია:
+    if number == 31:
+         print('აღმოცნდა 31')
+         break
+ხარისხი = 1 / count
+geometric = math.pow(ნამრავლი,ხარისხი)
+print(f'საშუალო გეომეტრიული არის {geometric}')

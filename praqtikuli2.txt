@@ -1,0 +1,6 @@
+import math
+Z = float(input("sheiyvanet ricxvi "))
+A = math.pow(10, -7)*math.log(3*math.pow(Z, 3)) + math.sin(2*math.pow(Z,2))
+B = math.pow(Z + 1 , 0.5) + math.pow(10, 6)
+C = A/B
+print(C)

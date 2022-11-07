@@ -1,0 +1,17 @@
+a = int(input("შეიყვანეთ პირველი რიცხვი: "))
+b = int(input("შეიყვანეთ მეორე რიცხვი: "))
+n = int(input("აირჩიე რაოდენობა: "))
+
+print("----------\n რიცხვი | ავტომორფულია?\n----------")
+for i in range(n):
+    randomnum=random.randint(a,b)
+    KV_stringad=repr(randomnum**2)
+    KV_bolo_cifri=KV_stringad[-1]
+    KV_int=int(KV_bolo_cifri)
+    randomnum_stringad=repr(randomnum)
+    randomnum_ბოლო_ციფრი=randomnum_stringad[-1]
+    int_randomnum=int(randomnum_ბოლო_ციფრი)
+    if KV_int==int_randomnum:
+        print(f"{randomnum} - დიახ")
+    else:
+        print(f"{randomnum} - არა")
